@@ -1,11 +1,17 @@
 source "https://rubygems.org"
 
-gem "github-pages", group: :jekyll_plugins
+# GitHub Pages gem (optional if you're using GitHub Actions to build)
+# gem "github-pages", group: :jekyll_plugins
 
+# Jekyll and theme
+gem "jekyll"
+gem "minimal-mistakes-jekyll"
+
+# Optional: Windows-specific fixes (do not cause errors elsewhere)
 gem "tzinfo-data"
 gem "wdm", "~> 0.1.0" if Gem.win_platform?
 
-# If you have any plugins, put them here!
+# Plugins used by Minimal Mistakes
 group :jekyll_plugins do
   gem "jekyll-paginate"
   gem "jekyll-sitemap"
@@ -13,5 +19,6 @@ group :jekyll_plugins do
   gem "jekyll-feed"
   gem "jemoji"
   gem "jekyll-include-cache"
-  gem "jekyll-algolia"
+  # Optional search plugin (comment out if unused)
+  # gem "jekyll-algolia"
 end
