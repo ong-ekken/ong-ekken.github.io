@@ -16,11 +16,11 @@ The following is the plan:
 * Math
   * Khan Academy
     * High School Geometry
-![Image](/images/2025-09-23-Khan-Geometry.png)
+    * ![Image](/assets/images/2025-09-23-Khan-Geometry.png)
 * Tech
   * Boot.dev
     * Building an AI Agent
-![Image](/images/2025-09-23-BootDev.png)
+    * ![Image](/assets/images/2025-09-23-BootDev.png)
 * Finance
   * Coursera - (Yale) Financial Markets
-![Image](/images/2025-09-23-Coursera-Yale.png)
+  * ![Image](/assets/images/2025-09-23-Coursera-Yale.png)
