@@ -6,7 +6,7 @@ categories:
 tags:
   - incremental
   - plans
-published: false
+published: true
 ---
 
 Starting a blog on Github Pages to start learning in public.
